@@ -36,3 +36,8 @@ A ideia é criar um programa que peça ao usuário os nomes dos alunos e guarde 
 
 
 # Dicionário: 
+
+
+A proposta foi criar um programa básico para cadastrar produtos com nome e preço usando um dicionário. Primeiro, o programa cria um dicionário vazio chamado produtos, onde cada item será guardado no formato nome: preço. Depois disso, um loop while True permite que o usuário continue cadastrando quantos produtos quiser.
+Em cada repetição, o usuário digita o nome do produto. Se apenas apertar Enter, o programa usa break para sair do cadastro. Se um nome for digitado, o programa pede o preço e o converte para número usando float().
+Depois disso, o nome e o preço são adicionados ao dicionário usando produtos[nome] = preco. A cada produto salvo, o programa mostra uma mensagem de confirmação. Quando o loop termina, o programa exibe todos os produtos cadastrados, mostrando o dicionário completo.
