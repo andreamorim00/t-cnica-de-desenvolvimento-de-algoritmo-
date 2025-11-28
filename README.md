@@ -30,4 +30,9 @@ Nesse exercício, eu fiz um contador de 1 a 100 usando duas estruturas: for e wh
  Na segunda parte, fiz a mesma coisa, mas usando o while. Comecei o contador em 2 e deixei o loop rodar enquanto o número fosse menor ou igual a 100. A cada volta, o programa verifica se o número é par usando `contador % 2 == 0`. Se for, ele é exibido. Depois disso, o contador é aumentado em 1 até chegar a 100.
 
 
-#
+# Listas: 
+
+A ideia é criar um programa que peça ao usuário os nomes dos alunos e guarde tudo dentro de uma lista. Primeiro, o programa cria uma lista vazia para armazenar esses nomes. Depois, usa um while True, que faz o programa pedir novos nomes sem parar, até que o usuário decida encerrar. A cada vez que o usuário digitar um nome, ele será colocado na lista usando append(). Se o usuário apertar apenas Enter, sem digitar nada, o programa usa break para sair do loop. No final, o programa mostra a frase “Lista dos alunos informados:” e exibe todos os nomes que foram cadastrados.
+
+
+# Dicionário: 
